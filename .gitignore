@@ -1,0 +1,66 @@
+benchmark.log
+*.txt
+
+# C++ Build Artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Executables
+query_intervaltree.exec
+query_hint_m.exec
+query_it_firas.exec
+query_ait.exec
+query_ait_dynamic.exec
+query_dit_firas.exec
+query_stream_firas_dit.exec
+query_stream_ait.exec
+query_btree.exec
+query_btree_set.exec
+
+# Compiler files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Static libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Debug files
+*.gdb_history
+core
+vgcore.*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
