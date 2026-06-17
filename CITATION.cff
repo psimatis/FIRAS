@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Amagata"
+    given-names: "Daichi"
+  - family-names: "Simatis"
+    given-names: "Panagiotis"
+  - family-names: "Bouros"
+    given-names: "Panagiotis"
+  - family-names: "Mamoulis"
+    given-names: "Nikos"
+title: "FIRAS: A Framework for Interval Range Search and Sampling"
+url: "[https://github.com/psimatis/FIRAS](https://github.com/psimatis/FIRAS)"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Amagata"
+      given-names: "Daichi"
+    - family-names: "Simatis"
+      given-names: "Panagiotis"
+    - family-names: "Bouros"
+      given-names: "Panagiotis"
+    - family-names: "Mamoulis"
+      given-names: "Nikos"
+  title: "FIRAS: A Framework for Interval Range Search and Sampling"
+  journal: "Proceedings of the ACM on Management of Data"
+  volume: 4
+  issue: "3"
+  start: 1
+  end: 26
+  year: 2026
+  doi: "10.1145/3802062"
