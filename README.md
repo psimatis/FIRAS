@@ -1,6 +1,6 @@
 # FIRAS: Framework for Interval Range Search and Sampling
 
-Source code from the publication at SIGMOD 2026. You can read the paper in Paper_SIGMOD_2026_FIRAS.pdf.
+Source code from the publication at SIGMOD 2026.
 
 <p align="justify"> 
 Intervals are ubiquitous in many applications, including temporal and uncertain databases. Range search, which retrieves all intervals that overlap a given query interval, is a key operation in such applications. As data sizes grow, range search results can become large, overwhelming users and resulting in long search times. Obtaining random samples from a large search result is a promising approach that alleviates the above issues. While for some applications, sampling range query results is adequate, others may require the complete query result. Hence, a challenging question arises: can we design a framework that efficiently handles both range search and range sampling? This work provides a positive answer. Based on a novel query decomposition idea, we propose FIRAS, a framework that supports range search and sampling in $\tilde{O}(1)+O(k)$ time and $\tilde{O}(1)+O(s)$ time, respectively, with $O(n)$ space, where $\tilde{O}(\cdot)$ hides any logarithmic factors, $k$ ($s$) is the range search result (sample) size, and $n$ is the data size. In other words, the runtime of FIRAS is sensitive only to the output size ($k$ or $s$), and not to $n$. FIRAS can also be used to know the result size $k$ of a range query in $\tilde{O}(1)$ time; subsequently, the issuer can decide whether to retrieve all results or random samples thereof in $O(k)$ or $O(s)$ time, respectively. Finally, we extend FIRAS to apply to evolving interval data, where queries interleave with updates and both have to be supported efficiently. Our extensive experiments on real-world datasets demonstrate the efficiency of FIRAS.
@@ -69,3 +69,21 @@ Example data and queries are provided (compressed) in the `data/` directory:
 - `data/Static/BTC.txt` - Static interval data
 - `data/Static/BTC_queries.txt` - Query intervals for static data
 - `data/Dynamic/BTC_stream.txt` - Streaming data
+
+
+## Citation
+
+If you use this code, please cite our paper:
+
+```bibtex
+@article{amagata2026firas,
+  title={FIRAS: A Framework for Interval Range Search and Sampling},
+  author={Amagata, Daichi and Simatis, Panagiotis and Bouros, Panagiotis and Mamoulis, Nikos},
+  journal={Proceedings of the ACM on Management of Data},
+  volume={4},
+  number={3 (SIGMOD},
+  pages={1--26},
+  year={2026},
+  publisher={ACM New York, NY, USA},
+  doi={[https://doi.org/10.1145/3802062](https://doi.org/10.1145/3802062)}
+}
