@@ -1,3 +1,8 @@
+<!-- Badges -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![C++](https://img.shields.io/badge/C++-17-blue.svg)](https://isocpp.org/)
+[![Paper](https://img.shields.io/badge/Paper-SIGMOD%202026-B31B1B.svg)](#citation)
+
 # FIRAS: Framework for Interval Range Search and Sampling
 
 Source code from the publication at SIGMOD 2026.
